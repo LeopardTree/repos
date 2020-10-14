@@ -52,13 +52,16 @@ namespace ast1
             for (int i = 0; i < longeststring + 4; i++)
             {
                 Console.Write("*");
+                if (i == longeststring + 3)
+                {
+                    Console.WriteLine("");
+                }
             }
 
-            Console.WriteLine("* " + {0} +" *"; name);
-
-            //Console.WriteLine("*" + "  " + { 0} +" " + "*", street);
-
-            //Console.WriteLine("*" + "" + { 0} +" " + "*", zip_city);
+            Console.WriteLine("* {0}  *", name);
+            Console.WriteLine("* {0} *", street);
+            Console.WriteLine("* {0}  *", zip_city);
+            
 
             for (int i = 0; i < longeststring + 4; i++)
             {
