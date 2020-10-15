@@ -57,11 +57,11 @@ namespace ast1._22
 
             Console.SetCursorPosition(20, 21);
 
-            Console.WriteLine("* {0}  *", name);
+            Console.WriteLine("* {0, -16}  *", name);
             Console.SetCursorPosition(20, 22);
-            Console.WriteLine("* {0} *", street);
+            Console.WriteLine("* {0, -16} *", street);
             Console.SetCursorPosition(20, 23);
-            Console.WriteLine("* {0}  *", zip_city);
+            Console.WriteLine("* {0, - 16}  *", zip_city);
 
             Console.SetCursorPosition(20, 24);
             for (int i = 0; i < longeststring + 4; i++)
