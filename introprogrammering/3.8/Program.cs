@@ -11,7 +11,7 @@ namespace _3._8
         static void Main(string[] args)
         {
             Console.WriteLine("100 slumptärningskast");
-            Random rand = new Random(5); // Skapa en slumpmojäng
+            Random rand = new Random(); // Skapa en slumpmojäng
             int i = 0;
             int ones = 0;
             int twos = 0;
