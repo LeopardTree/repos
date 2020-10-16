@@ -12,17 +12,37 @@ namespace _3_5
         {
             //Programmet ska fråga användaren efter ett godtyckligt tal och sedan informerar
             //användaren om det är ett primtal eller inte.
+            //En effektiv men primitiv metod för att avgöra om ett tal n är ett primtal, 
+            //är att dividera detta med alla hela tal, från 2 till och med det som är närmast mindre än eller lika med {sqrt}(n). 
+            //Om därvid någon divisionsrest blir noll, är talet ej ett primtal och processen kan avbrytas.
 
             Console.WriteLine("Primtalstest. Skriv in ett heltal:");
-            userInput = int.Parse(Console.ReadLine());
-
-            int i;
-            while (i < userInput)
+            int userInput = int.Parse(Console.ReadLine());
+            int i = 2;
+            double n = (Math.Sqrt(userInput));
+            bool isprime = true;
+            while (i <= n)
             {
-                int[] myArray1 = new int[userInput];
+                
+                if( userInput % i == 0)
+                {
+                    
+                    isprime = false;
+                    break;
 
+                }
 
+                i++;
             }
+            if (isprime)
+            {
+                Console.WriteLine("talet är ett primtal");
+            }
+            else
+            {
+                Console.WriteLine("talet är inget primtal");
+            }
+            Console.ReadKey();
         }
     }
 }
