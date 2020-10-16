@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "losn.array.ovn7", "losn.array.ovn7.csproj", "{84179619-9FF0-44B8-93DD-06B9AAFEDE7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "array.losn.3.6", "..\array.losn.3.9\array.losn.3.6.csproj", "{F2F7EC54-5260-48B5-9EA6-DF3147725ABB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "array.losn.array.6", "..\array.losn.3.9\array.losn.array.6.csproj", "{F2F7EC54-5260-48B5-9EA6-DF3147725ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ovn_array.1", "..\ovn3.1\ovn_array.1.csproj", "{4AC6164E-4CF0-4569-AF7A-D8F6583D6E83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F2F7EC54-5260-48B5-9EA6-DF3147725ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2F7EC54-5260-48B5-9EA6-DF3147725ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2F7EC54-5260-48B5-9EA6-DF3147725ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC6164E-4CF0-4569-AF7A-D8F6583D6E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC6164E-4CF0-4569-AF7A-D8F6583D6E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC6164E-4CF0-4569-AF7A-D8F6583D6E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC6164E-4CF0-4569-AF7A-D8F6583D6E83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
