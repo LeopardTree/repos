@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2funktioner", "4.2funktioner.csproj", "{4209ABF7-2D03-474A-924F-7D73203A07D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.3skatt", "..\4.3skatt\4.3skatt.csproj", "{9ECA21E1-5A09-416E-A2FB-195F2A5A3C2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4209ABF7-2D03-474A-924F-7D73203A07D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4209ABF7-2D03-474A-924F-7D73203A07D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4209ABF7-2D03-474A-924F-7D73203A07D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4209ABF7-2D03-474A-924F-7D73203A07D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ECA21E1-5A09-416E-A2FB-195F2A5A3C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ECA21E1-5A09-416E-A2FB-195F2A5A3C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ECA21E1-5A09-416E-A2FB-195F2A5A3C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ECA21E1-5A09-416E-A2FB-195F2A5A3C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {663F0576-7785-4E34-A3E3-68925162A0AF}
+	EndGlobalSection
+EndGlobal
